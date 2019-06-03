@@ -9,6 +9,7 @@ const getRepoContributors = (repoOwner, repoName, cb) => {
             'Authorization': secret.GITHUB_TOKEN
         }
     }
+    
     request(option.url,function(error,response,body){
         cb (error,body);
     })
