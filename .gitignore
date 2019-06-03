@@ -1,2 +1,5 @@
 # Dependency directories
 node_modules/
+
+# Github personal access token
+secrets.js
