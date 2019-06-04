@@ -58,6 +58,6 @@ const saveAvatarImages = (err, body) => {
     });
 }
 
-getRepoContributors("jquery", "jquery", saveAvatarImages);
+getRepoContributors(repoOwner, repoName , saveAvatarImages);
 
 
